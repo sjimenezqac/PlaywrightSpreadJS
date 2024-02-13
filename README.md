@@ -15,4 +15,4 @@ Option 2: Use SpreadJS provided demo app (not an Angular app):
   
 <br/>  
 
-**NOTE:** Sleeps have been intentionally added for demo purposes. 
+**NOTE:** waitForTimeout() have been intentionally added for demo purposes. 
