@@ -2,7 +2,10 @@ Small PoC of Playwright interacting with SpreadJS instance in an Angular applica
 
 ### Precondition
 App under test must expose SpreadJS module to window context so that it can be visible by automation execution.
-
+```Javascript
+import * as GC  from '@mescius/spread-sheets'
+window["GC"] = GC
+```
 ### Prerequisites:  
 Option 1 (default): Clone, install and run demo app: https://github.com/sjimenezqac/AngularSpreadJSSample  
 Option 2: Use SpreadJS provided demo app (not an Angular app):  
